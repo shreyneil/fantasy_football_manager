@@ -28,6 +28,7 @@ oci_execute($stid);
 oci_fetch($stid);
 $tid = oci_result($stid, 'U');
 
+
 if($p==0)
 	echo "enter a valid player number";
 
